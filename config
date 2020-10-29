@@ -1,0 +1,4 @@
+TESTING = False
+FLASK_DEBUG = True
+SECRET_KEY = "thisismysecretkey"
+SERVER = '192.168.0.109'

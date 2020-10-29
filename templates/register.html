@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Register</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Register</h1>
+    <form class = "form-inline" method="POST" action="/register">
+        Enter your name: <input type="text" name = "clientName">
+        <button type="Submit" class="btn btn-primary mb-2">Join</button>
+    </form>
+{% endblock %}
